@@ -13,6 +13,9 @@ function removeElement(arr, item) {
 console.log(removeElement(array, 5));
 // Результат: [1, 2, 3, 4, 6, 7]
 
+console.log(array);
+// исходный массив возращет [5, 1, 5, 2, 3, 4, 5, 6, 5, 7]
+
 //Реализицаия с мутаций исходного массива 
 function removeElementMut(arr, item) {
     //создаем цикл forEach который выполняется для каждого елемента исходного массива  
